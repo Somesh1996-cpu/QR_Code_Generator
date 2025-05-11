@@ -1,0 +1,41 @@
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(135deg, rgb(3, 121, 3), blue);
+}
+
+.container {
+    background-color: #e1854b;
+    width: 220px;
+    height: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#input:hover {
+    border: 2px rgb(70, 102, 209) solid;
+}
+
+#generateQR {
+    background-color: rgb(70, 209, 70);
+    width: 150px;
+    height: 30px;
+    margin: 10px, 0px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#generateQR:hover {
+    transform: scale(0.9);
+}
