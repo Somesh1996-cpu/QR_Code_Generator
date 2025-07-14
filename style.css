@@ -6,19 +6,28 @@ body {
     background: linear-gradient(135deg, rgb(3, 121, 3), blue);
 }
 
+div p {
+    color: rgb(240, 243, 237);
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .container {
-    background-color: #e1854b;
-    width: 220px;
-    height: 350px;
-    margin: 20px auto;
+    background-color: #a8a09b;
+    width: 350px;
+    height: 380px;
+    margin: 40px auto;
     padding: 20px;
     border-radius: 20px;
     text-align: center;
 }
 
 #input {
-    padding: 5px;
+    padding: 6px;
+    height: 20px;
+    width: 280px;
     border-radius: 5px;
+    font-size: 14px;
 }
 
 #input:hover {
@@ -27,15 +36,20 @@ body {
 
 #generateQR {
     background-color: rgb(70, 209, 70);
-    width: 150px;
+    width: 130px;
     height: 30px;
     margin: 10px, 0px;
     border: none;
     border-radius: 10px;
     transition: 0.3s;
+    font-weight: 550;
     cursor: pointer;
 }
 
 #generateQR:hover {
-    transform: scale(0.9);
+    transform: scale(1.1);
+}
+
+.container img {
+    padding: 10px;
 }

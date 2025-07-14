@@ -4,7 +4,6 @@ let input = document.querySelector("#input");
 let btnGenerateQR = document.querySelector("#generateQR");
 let imageQR = document.querySelector("#imageQR");
 
-
 function generateQR() {
     if (input.value === "") {
         alert("Please provide a valid input !");
